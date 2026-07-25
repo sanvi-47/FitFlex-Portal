@@ -1,0 +1,144 @@
+{
+  "register": [
+    {
+      "username": "Prajwal",
+      "email": "mysofficeuse@gmail.com",
+      "password": "1234",
+      "phone": "7483526212",
+      "age": "23",
+      "gender": "Male",
+      "id": "I81xFNEs_7c"
+    }
+  ],
+  "members": [
+    {
+      "memberName": "Dishanth",
+      "memberPlan": "Premium",
+      "totalFee": 2000,
+      "amountPaid": 1500,
+      "joinedOn": "7/9/2026",
+      "id": "gVwhTYhzek8"
+    },
+    {
+      "memberName": "Sakshi",
+      "memberPlan": "Premium",
+      "totalFee": 2000,
+      "amountPaid": 1300,
+      "joinedOn": "7/9/2026",
+      "id": "two4mq4Bni8"
+    }
+  ],
+  "payments": [
+    {
+      "memberId": null,
+      "memberName": "Ashish Kumar",
+      "type": "Payment",
+      "description": "Membership Payment",
+      "amount": 500,
+      "transaction": "7/7/2026, 12:55:06 PM",
+      "id": "FSkPKJwqd4k"
+    },
+    {
+      "memberId": "two4mq4Bni8",
+      "memberName": "Sakshi",
+      "type": "Payment",
+      "description": "Initial Payment",
+      "amount": 500,
+      "transaction": "7/9/2026, 1:35:52 PM",
+      "id": "_k6bP0QrSkE"
+    },
+    {
+      "memberId": "two4mq4Bni8",
+      "memberName": "Sakshi",
+      "type": "Payment",
+      "description": "Membership Payment",
+      "amount": 1000,
+      "transaction": "7/9/2026, 1:36:12 PM",
+      "id": "kMYLQrJqgDo"
+    },
+    {
+      "memberId": "two4mq4Bni8",
+      "memberName": "Sakshi",
+      "type": "Refund",
+      "description": "Amount Refunded",
+      "amount": 500,
+      "transaction": "7/9/2026, 1:36:24 PM",
+      "id": "vKXN-Ll6Hwo"
+    },
+    {
+      "memberId": "two4mq4Bni8",
+      "memberName": "Sakshi",
+      "type": "Payment",
+      "description": "Membership Payment",
+      "amount": 500,
+      "transaction": "7/9/2026, 1:47:20 PM",
+      "id": "1jOCIO0ArT4"
+    },
+    {
+      "memberId": "two4mq4Bni8",
+      "memberName": "Sakshi",
+      "type": "Refund",
+      "description": "Amount Refunded",
+      "amount": 200,
+      "transaction": "7/9/2026, 1:49:30 PM",
+      "id": "NFiDRQIcs4A"
+    }
+  ],
+  "ptRequest": [
+    {
+      "memberId": "Chetan - IZSa1yJanyg",
+      "trainerPreference": "Strength Training",
+      "slot": "Night [7-9 PM]",
+      "goal": "Weight Gain",
+      "status": "APPROVED",
+      "date": "7/8/2026",
+      "id": "pMlxYxIp35k"
+    },
+    {
+      "memberId": "Sakshi - XPrv03CJQ-g",
+      "trainerPreference": "Strength Training",
+      "slot": "Night [7-9 PM]",
+      "goal": "Weight Gain",
+      "status": "REJECT",
+      "date": "7/8/2026",
+      "id": "Fa1VaOqYcio"
+    },
+    {
+      "memberId": "Ashish Kumar - _xlGoLCKqHg",
+      "trainerPreference": "Weight Loss",
+      "slot": "Afternoon [12-2 PM]",
+      "goal": "Fat loss",
+      "status": "APPROVED",
+      "date": "7/8/2026",
+      "id": "af_G4B-Z958"
+    },
+    {
+      "memberId": "Dishanth - gVwhTYhzek8",
+      "trainerPreference": "Yoga",
+      "slot": "Afternoon [12-2 PM]",
+      "goal": "Weight Gain",
+      "status": "APPROVED",
+      "date": "7/9/2026",
+      "id": "XI8R3uo1i8U"
+    },
+    {
+      "memberId": "Sakshi - two4mq4Bni8",
+      "trainerPreference": "Yoga",
+      "slot": "Morning [6-8 AM]",
+      "goal": "Fit Body",
+      "status": "APPROVED",
+      "date": "7/9/2026",
+      "id": "5-RVL7H0Ta8"
+    },
+    {
+      "memberId": "Sakshi - two4mq4Bni8",
+      "trainerPreference": "Yoga",
+      "slot": "Night [7-9 PM]",
+      "goal": "Weight Gain",
+      "status": "PENDING",
+      "date": "7/10/2026",
+      "id": "KGxc3FEqS8c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

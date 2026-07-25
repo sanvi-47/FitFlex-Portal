@@ -1,7 +1,16 @@
-# FitFlex-Portal
-* Built a Gym Membership Management System using React, React Router v6, Axios, and JSON Server as a REST API backend.
-* Implemented complete CRUD operations add members, record payments, issue refunds, upgrade plans, and delete records across multiple REST resources (/members, /payments, /ptRequests).
-* Designed an authentication system with Register/Login using local Storage and protected all dashboard routes using a custom Private Route component.
-* Created a Personal Training Request module with a status workflow (Pending → Approved / Rejected) using PATCH requests for inline status updates.
-* Built a live dashboard displaying active member count, net revenue, and pending PT requests fetched from the REST API on component mount.
-* Applied React best practices including useState, useEffect, useNavigate, controlled forms, loading states, and toast notifications across all API interactions.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+
+## React Compiler
+
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
